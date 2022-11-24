@@ -7,7 +7,7 @@ const app = express();
 const db = mysql.createConnection({
   host: 'localhost',
   user: 'root',
-  password: 'Rmsgur!313',
+  password: '12345',
   database: 'test',
 });
 
@@ -73,4 +73,4 @@ app.listen(8800, () => {
   console.log('connected to backend!!!');
 });
 
-// ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'Rmsgur!313'
+// ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '12345'
